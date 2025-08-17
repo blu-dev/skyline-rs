@@ -31,7 +31,7 @@ pub enum Region {
 
 #[repr(C)]
 pub struct InlineCtx {
-    pub registers: [CpuRegister; 31],
+    pub registers: [CpuRegister; 30],
     pub sp: CpuRegister,
     pub registers_f: [FpuRegister; 32],
 }
